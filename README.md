@@ -3,4 +3,4 @@
 ### LỘ TRÌNH CÀY
 |  #  | Project | Live | Start day |
 | :---: | :---: | :---: | :---: |
-| 01  | [Product Card](https://github.com/Dusthuynh/30days-challenge-with-Nodemy/tree/main/ProductCard) | [Live]() | 16/12/2021 |
+| 01  | [Product Card](https://github.com/Dusthuynh/30days-challenge-with-Nodemy/tree/main/ProductCard) | [Live](https://dusthuynh.github.io/30days-challenge-with-Nodemy/ProductCard/productCard.html) | 16/12/2021 |
