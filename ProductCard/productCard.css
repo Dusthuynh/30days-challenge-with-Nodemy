@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-image: linear-gradient(to right, #4daf54, #3d8880);
+    overflow: hidden;
 }
 h3, h2, p{
     margin: 0;
@@ -17,7 +18,7 @@ h3, h2, p{
     position: relative;
     margin: 20vh auto;
     padding: 15px 20px;
-    box-sizing: border-box; /*Phan nay chua hieu lam*/
+    box-sizing: border-box;
 }
 
 .cart, .like{
@@ -48,6 +49,7 @@ img{
 }
 
 .title-card{
+    margin-top: 20px;
     font-size: 24px;
     font-weight: 700;
     color: rgb(62, 202, 120);
@@ -106,18 +108,14 @@ img{
     color: aliceblue;
     font-size: 1.1rem;
     font-weight: 600;
+    transition: 0.2s;
 }
 
-
-.size-card{
-    margin-top: 80px;
-}
 .action_card, .color-card, .size-card{
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
 }
-
 .card:hover .action_card, 
 .card:hover .color-card, 
 .card:hover .size-card{
@@ -125,6 +123,14 @@ img{
     visibility: visible;
     transition-delay: 0.2s;
 }
+
+.size-card{
+    margin-top: 80px;
+}
 .card:hover .size-card{
     margin-top: -20px;
+}
+
+.action_card button:hover{
+    transform: scale(0.9);
 }
