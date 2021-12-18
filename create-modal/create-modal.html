@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Modal</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel='stylesheet' href='create-modal.css'>
 </head>
 <body>
-    
+    <button class="btn_modal">Nhấp vào để xem thông báo</button>
+    <div class="modal hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <span>Đây là thông báo</span>
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal_body">
+                <h2>Thông báo</h2>
+                <p>Cảm ơn đã đọc thông báo !!!</p>
+            </div>
+            <div class="modal_footer">
+                <button class="btn_close">Đóng</button>
+            </div>
+        </div>
+    </div>
+    <script src="create-modal.js"></script>
 </body>
 </html>
