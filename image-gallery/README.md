@@ -5,8 +5,8 @@
 ```
 array.forEach(function(currentValue, index, arr), thisValue)
 ```
-Với:`function()`	Required. A function to run for each array element.
-    `currentValue`	Required. The value of the current element.
-    `index`     	Optional. The index of the current element.
-    `arr`	        Optional. The array of the current element.
+Với:`function()`	Required. A function to run for each array element. </br>
+    `currentValue`	Required. The value of the current element. </br>
+    `index`     	Optional. The index of the current element. </br>
+    `arr`	        Optional. The array of the current element. </br>
     `thisValue`	    Optional. Default undefined. A value passed to the function as its this value.
