@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg, #4b086d, #acc0fe);
+    display: flex;
+    height: 100vh;
+}
+.wrapper{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 40px;
+    margin: auto;
+}
+.image{
+    overflow: hidden;
+    width: 265px;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.image img:hover{
+    transform: scale(1.2);
+}
+.gallery{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.541);
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+    transition: 0.25s;
+    transform: scale(0.8);
+}
+.gallery.show{
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+.gallery-inner{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+.gallery-inner img{
+    cursor: auto;
+}
+.ctrl{
+    cursor: pointer;
+    position: absolute;
+    color: aliceblue;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+}
+.next{
+    right:20px;
+}
+.prev{
+    left:20px;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    color: aliceblue;
+    font-size: 35px;
+    top:15px;
+    right:25px;
+}
+.hide{
+    display: none;
+}
