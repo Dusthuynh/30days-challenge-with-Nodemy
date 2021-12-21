@@ -1,4 +1,4 @@
-# [CREATE MODAL](https://dusthuynh.github.io/30days-challenge-with-Nodemy/detect-pressed-key/detect-pressed-key.html)
+# [Detect Pressed Key](https://dusthuynh.github.io/30days-challenge-with-Nodemy/detect-pressed-key/detect-pressed-key.html)
 
 ### Tìm hiểu về
 - e.keycode;
