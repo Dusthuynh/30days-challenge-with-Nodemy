@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+
+.alert{
+    color: #ee9ca7;
+    background-color: aliceblue;
+    width: 350px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result{
+    margin-bottom: 10vh;
+    font-size: 4rem;
+    font-weight: 700;
+    color: whitesmoke;
+    border: whitesmoke solid 7px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.detail .card{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.card p:first-child{
+    color: whitesmoke;
+    background-color: #da7582;
+    width: 300px;
+    height: 50px;
+}
+.card p:last-child{
+    color: #505050;
+    background-color: whitesmoke;
+    height: 50px;
+
+}
+
+.hide{
+    display: none;
+}
