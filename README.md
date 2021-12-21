@@ -8,4 +8,4 @@
 | 03  | [Create Modal](https://github.com/Dusthuynh/30days-challenge-with-Nodemy/tree/main/create-modal) | [Live](https://dusthuynh.github.io/30days-challenge-with-Nodemy/create-modal/create-modal.html) | 18/12/2021 |
 | 04  | [Image Gallery](https://github.com/Dusthuynh/30days-challenge-with-Nodemy/tree/main/image-gallery) | [Live](https://dusthuynh.github.io/30days-challenge-with-Nodemy/image-gallery/image-gallery.html) | 19/12/2021 |
 | 05  | [Search Box](https://github.com/Dusthuynh/30days-challenge-with-Nodemy/tree/main/search-box) | [Live](https://dusthuynh.github.io/30days-challenge-with-Nodemy/search-box/search-box.html) | 20/12/2021 |
-| 06  | [Detect Pressed Key](https://github.com/Dusthuynh/30days-challenge-with-Nodemy/tree/main/detect-pressed-key) | [Live](https://dusthuynh.github.io/30days-challenge-with-Nodemy/detect-pressed-key.html) | 21/12/2021 |
+| 06  | [Detect Pressed Key](https://github.com/Dusthuynh/30days-challenge-with-Nodemy/tree/main/detect-pressed-key) | [Live](https://dusthuynh.github.io/30days-challenge-with-Nodemy/detect-pressed-key/detect-pressed-key.html) | 21/12/2021 |
