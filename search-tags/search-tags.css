@@ -36,8 +36,7 @@ body{
     margin: 0 5px 5px 0;
     padding: 12px;
     border-radius: 5px;
-    overflow-wrap: break-word;
-    word-break: break-all;
+    word-wrap: break-word;
 }
 .search-tags span{
     font-size: 1.1rem;
