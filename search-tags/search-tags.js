@@ -26,12 +26,17 @@ function createTag(e){
         searchInput.focus();
 
         eTags = document.querySelectorAll('.search-tags li i');
-        //xu ly su kien xoa tag
+        // xu ly su kien xoa tag
         eTags.forEach((value,idx)=>{
             eTags[idx].onclick = ()=>{
                 eTags[idx].parentNode.remove();
             }
         });
+
+        // //cach2
+        // icon.onclick = ()=>{
+        //     icon.parentNode.remove();
+        // }
     }
 }
 
